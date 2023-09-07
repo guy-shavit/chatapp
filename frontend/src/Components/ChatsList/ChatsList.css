@@ -1,0 +1,38 @@
+.chats-list {
+    width: 100%;
+    height: 80%;
+    overflow-y: auto;
+    flex: 1;
+}
+
+.chats-list .chat-block {
+    margin: 10px;
+}
+
+.chats-list .chat-block:hover {
+    background-color: rgba(139, 139, 139, 0.5);
+    cursor: pointer;
+}
+
+.chats-list img {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.chats-list h3 {
+    display: inline-block;
+    margin-left: 10px;
+    position: relative;
+    top: 5px;
+}
+
+.chats-list h6 {
+    float: right;
+    position: relative;
+    top: 20px;
+    
+}
+

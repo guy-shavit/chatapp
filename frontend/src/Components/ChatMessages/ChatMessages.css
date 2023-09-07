@@ -1,0 +1,65 @@
+:root {
+    --messageBox-width: 65vw;
+}
+
+
+#messages {
+    flex: 1;
+    overflow: auto;
+    margin-top: 15px;
+    height: auto;
+    width: var(--messageBox-width);
+    background-color: rgb(0, 0, 0, 0.1);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: var(--messageBox-width);
+}
+
+#messageBox {
+    width: 60vw;
+}
+
+#send {
+    width: 39px;
+    height: 39px;
+    cursor: pointer;
+}
+
+#send:hover {
+    transform: scale(1.2);
+}
+
+.msg {
+    margin: 5px;
+    border: solid;
+    width: calc(var(--messageBox-width) / 2 + 5px);
+    word-wrap: break-word;
+}
+
+.msg ul {
+    list-style-type: none;
+}
+
+.msg li {
+    position: relative;
+}
+
+.msg li[name="username"] {
+    font-size: 15px;
+}
+
+.msg li[name="text"] {
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.msg li[name="date"] {
+    font-size: 15px;
+    float: right;
+    margin-right: 10px;
+}

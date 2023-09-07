@@ -1,0 +1,45 @@
+:root {
+    --width: 20vw;
+}
+
+.group-info {
+    background-color: rgb(241, 205, 24);
+    position: absolute;
+    width: var(--width);
+    left: calc(30vw + 70vw / 2 - 15vw);
+    top: 50px;
+
+}
+
+.group-users-list {
+    background-color: rgb(0, 0, 0, 0.2);
+    width: calc( var(--width) - 10px );
+    height: 150px;
+    overflow: scroll;
+}
+
+.group-user-block {
+    padding-left: 5px;
+    margin-bottom: 0%;
+    cursor: pointer;
+}
+
+.group-user-block:hover {
+    background-color: rgba(0, 85, 255, 0.7);
+}
+
+.wrapper-img {
+    width: var(--width);
+}
+
+.conversation-info-profile-img {
+    margin-top: 5px;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+}
+
+.conversation-name {
+    display: inline-block;
+    margin-left: 5px;
+}

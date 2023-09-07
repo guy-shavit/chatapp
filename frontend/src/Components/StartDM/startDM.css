@@ -1,0 +1,12 @@
+:root {
+    --width: 300px;
+}
+
+.start-dm {
+    position: absolute;
+    background-color: gray;
+    width: var(--width);
+    top: 10%;
+    left: calc(100vw / 2 - var(--width) / 2);
+}
+

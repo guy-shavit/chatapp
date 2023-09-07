@@ -1,0 +1,9 @@
+
+.createGroup {
+    position: absolute;
+    background-color: gray;
+    top: 50px;
+    left: calc( 100vw / 2 - 140px);
+    border-radius: 10px;
+    z-index: 9998;
+}

@@ -1,0 +1,35 @@
+.chat-page {
+    display: flex;
+}
+
+.chats {
+    display: flex;
+    flex-direction: column;
+    background-image: url('../../../public/chatUsersBg.jpeg');
+    filter: brightness(85%);
+    width: 30vw;
+    height: 100vh;
+}
+
+.chat-messages {
+    display: flex;
+    flex-direction: column;
+    background-image: url('../../../public/chatMesssagesBg.jpeg');
+    width: 70vw;
+    height: 100vh;
+    padding: 15px;
+}
+
+input {
+    width: 98%;
+    height: 35px;
+    margin: 1%;
+    outline: none; 
+}
+
+
+.set-blur {
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+    pointer-events: none;
+}

@@ -1,0 +1,71 @@
+/* SignUp.css */
+
+/* Style the entire form */
+.form-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the SignUp label */
+  .form-container h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  /* Style form groups (input fields and labels) */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  /* Style input fields */
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  /* Style password verification field with red border on mismatch */
+  .form-control.password-mismatch {
+    border-color: red;
+  }
+  
+  /* Style password verification field with green border on match */
+  .form-control.password-match {
+    border-color: green;
+  }
+  
+  /* Style the Submit button */
+  .submit-button {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  /* Style the Login link */
+  .login-link {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .login-link a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .login-link a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,23 @@
+:root {
+    --card-width: 12vw;
+}
+
+
+.card img {
+    height: 130px;
+    width: var(--card-width);
+    border-radius: 50%;
+    border: solid;
+    margin-top: 20px;
+}
+
+.card a {
+    font-size: 25px;
+    position: absolute;
+    color: blue;
+    top: calc(100vh - 125px);
+}
+
+.card .btn {
+    margin-top: 20px;
+}

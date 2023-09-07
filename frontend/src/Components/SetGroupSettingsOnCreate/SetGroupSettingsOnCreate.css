@@ -1,0 +1,23 @@
+
+#groupName {
+    background-color: transparent;
+    border: none;
+    border-bottom: solid blue;
+    color: blue;
+    margin: 10px;
+    width: 150px;
+    margin-top: 0px;
+}
+
+
+.set-group-name label {
+    margin-right: 0px;
+}
+
+.create-group-profile-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
