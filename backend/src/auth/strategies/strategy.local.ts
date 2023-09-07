@@ -3,7 +3,6 @@ import { PassportStrategy } from "@nestjs/passport";
 import { Strategy } from "passport-local";
 import { AuthService } from "../services/auth/auth.service";
 
-// this class will handle the password and username authentication which are stored locally on the database
 @Injectable()
 export class LocalStrategy  extends PassportStrategy(Strategy) {
     

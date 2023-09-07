@@ -27,11 +27,7 @@ const ConversationInfo = ({
   return (
     <div className="group-info">
       <div className="wrapper-img">
-        <img
-          className="conversation-info-profile-img"
-          src={`${SERVER_URL}/${currentConversation.profile_image}`}
-          alt="..."
-        />
+
         <h6 className="conversation-name">{currentConversation.username}</h6>
       </div>
 

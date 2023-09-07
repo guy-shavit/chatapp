@@ -8,7 +8,6 @@ import entities, { Conversation, User } from 'src/typeORM';
 /*
 in a terminal pointing to the ~ directory
 type mysql -u root -p
-enter password: bar20041708A
 
 type USE users;
 and then show tables; to see the tables

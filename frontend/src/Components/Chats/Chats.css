@@ -5,7 +5,7 @@
 .chats {
     display: flex;
     flex-direction: column;
-    background-image: url('../../../public/chatUsersBg.jpeg');
+    background-image: url('../../../public/secBg.jpeg');
     filter: brightness(85%);
     width: 30vw;
     height: 100vh;
@@ -14,7 +14,7 @@
 .chat-messages {
     display: flex;
     flex-direction: column;
-    background-image: url('../../../public/chatMesssagesBg.jpeg');
+    background-image: url('../../../public/mainBg.jpeg');
     width: 70vw;
     height: 100vh;
     padding: 15px;

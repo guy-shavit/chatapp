@@ -16,7 +16,7 @@ import { GatewayModule } from './gateway/gateway.module';
       host: 'localhost',
       port: 3306,
       username: 'root',
-      password: '12345678',
+      password: 'root',
       entities: entities,
       database: 'chatApp',
       // synchronize: true,

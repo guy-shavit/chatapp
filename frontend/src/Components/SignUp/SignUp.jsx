@@ -16,6 +16,8 @@ const SignUp = ({ routeNavigator }) => {
   const [isMatchingPassword, setIsMatchingPassword] = useState(false);
 
   return (
+    <div className="login-container">
+    <Form className="login-form">
     <Form className="p-4" onSubmit={(event) => {
         event.preventDefault();
     }}>
@@ -101,6 +103,8 @@ const SignUp = ({ routeNavigator }) => {
         </Form.Label>
       </Form.Group>
     </Form>
+    </Form>
+    </div>
   );
 };
 

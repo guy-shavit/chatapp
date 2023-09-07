@@ -52,7 +52,7 @@ const ChatMessages = ({
           setShowGroupInfo(true);
         }}
       >
-        {currentConversation.chatType === "dm"
+        {currentConversation.chatType === "DM"
           ? currentConversation.username.replace(ownerUsername, "")
           : currentConversation.username}
         - ({currentConversation.chatType})
@@ -95,13 +95,6 @@ const ChatMessages = ({
               await sendMessage();
             }
           }}
-        />
-        <img
-          id="send"
-          src="sendMessage.png"
-          alt="..."
-          style={{borderStyle: "none"}}
-          onClick={async () => await sendMessage()}
         />
       </div>
       

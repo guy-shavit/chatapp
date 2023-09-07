@@ -32,14 +32,8 @@
     width: var(--width);
 }
 
-.conversation-info-profile-img {
-    margin-top: 5px;
-    height: 40px;
-    width: 40px;
-    display: inline-block;
-}
 
 .conversation-name {
     display: inline-block;
-    margin-left: 5px;
+    margin-left: 10px;
 }
