@@ -260,7 +260,7 @@ export class ChatsService {
       partialChatName,
     );
 
-    // searches if the user attends in the search results and removes him
+    // searche
     let index = -1;
     users.some((object, idx) => {
       if (object.username == ownerUsername) {

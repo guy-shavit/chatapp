@@ -29,7 +29,7 @@ export class Message {
     })
     text: string;
 
-    @Column({ // the user who sent the message
+    @Column({ 
         type: 'datetime'
     })
     sent_datetime: Date;
